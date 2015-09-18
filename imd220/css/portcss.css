@@ -1,0 +1,22 @@
+/* css for portal page - site name: Ashburn Town, by Hussain Raja */
+
+body {background-color:#bdbdbd; margin-left:0px; left:0px}
+
+div#global {
+
+position: relative;
+
+margin-left: auto;
+
+margin-right: auto;
+
+width: 740px;} 
+
+#maincontent {position:absolute; width:740px; height:440px; top:0px; left:0px;}
+.imagemap {position:absolute; width:543px; height:379px; top:16px; left:86px;}
+
+/* temp css */
+
+.linkback {position:absolute; top:445px; left:0px; font-size:12px; font-style:normal; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333333}
+
+

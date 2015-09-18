@@ -1,0 +1,135 @@
+/* 
+Author: Hussain Raja
+Website: iNewsletter
+Created: November 17th, 2008
+
+ */
+   
+/* Reset */
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+
+ul {padding-left:15px;
+    padding-top:0px;
+	padding-bottom:0px;
+	}
+	
+ol {padding-left:20px;
+    padding-top:5px;}
+	
+p {padding-top:10px;
+   padding-bottom:0px;}
+
+body {background-color:#4f4f4f; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background-image:url(../images/bgstyle/bg_image2.jpg); background-repeat:repeat-x; z-index:0;}
+
+#header {position:relative; left:0px; top:23px; width:798px; height:112px; background-image:url(../images/bgstyle/bg_image.jpg); background-repeat:repeat-x; border-width:1px; border-style:solid; border-color:#323232; border-top:none; border-bottom:none; z-index:2;}
+
+#footer {position:relative; top:32px; width:798px; height:35px; background-image:url("../images/bgstyle/regular.jpg"); background-repeat:repeat-x; clear:both; border:1px solid #323232;}
+
+.navigation {position:relative; width:800px; height:auto; top:26px;}
+
+h1 {font-weight:bold; font-size:13px; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif; color:#ffffff; padding-top:10px; padding-bottom:0px;}
+
+h2 {font-weight:bold; font-size:11px; font-family:Arial, Helvetica, sans-serif; color:#373737; padding-top:3px; padding-bottom:3px;} 
+
+h3 {font-weight:bold; font-size:12px; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif; color:#15305b; padding-top:10px; padding-bottom:10px;}
+
+h4 {font-weight:bold; font-size:14px; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif; color:#15305b; padding-top:10px;}
+
+
+.lowercase {text-transform:lowercase;}
+
+.date2 {font-weight:bold; font-size:12px; text-transform:capitalize; font-family:Arial, Helvetica, sans-serif; color:#373737;}
+
+.source {font-weight:bold; font-size:12px; text-transform:uppercase; font-family:Arial, Helvetica, sans-serif; color:#373737; padding:0px; margin:0px;}
+
+/* main styles */
+
+#wrap {position:relative; margin-left:auto; margin-right:auto; width:800px; z-index:1;}
+
+/*.logo {position:relative; top:24px; z-index:2;}*/
+
+.slogan {position:relative; left:80px; top:-39px; z-index:2;}
+
+/* image styles/position */
+
+/*team page*/
+
+.wrap {float:right; width:300px; height:250px; margin-right:10px; margin-left:10px;}
+
+img#ab {float:left; margin-right:10px; margin-left:0px;}
+
+img#ab2 {float:left; margin-right:10px; margin-left:0px;}
+
+.position1 {position:relative; top:0px; left:0px;}
+
+.position2 {position:relative; top:87px; left:-130px;}
+
+.cimg {padding-left:6px; padding-top:20px;}
+
+.imga {padding:0px 0px 0px 7px; color:#CCCCCC;}
+
+/* text styling or text divs */
+
+.date {position:absolute; top:0px; font-family:Arial, Helvetica, sans-serif; color:#FFFFFF; text-decoration:none; font-weight:bold; padding:6px; font-size:14px; left:0px; z-index:2;}
+
+.texth {padding:10px 15px 0px 15px; color:#CCCCCC;}
+
+.texta {padding:0px 0px 10px 10px; color:#CCCCCC;}
+
+.textb {padding:0px 0px 10px 10px; color:#CCCCCC;}
+
+.footer1 {position:relative; padding:11px; width:100px; left:345px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-weight:bold;}
+
+/* columns */
+
+.column1 {position:relative; min-height:400px; top:29px; width:396px; float:left; background-color:#636363; border:1px solid #323232;}
+
+.column2 {position:relative; min-height:400px; _height:400px; top:29px; width:396px; left:0px; float:right; background-color:#636363; border:1px solid #323232;}
+
+/* news page */
+
+.column1n {position:relative; min-height:776px; top:29px; width:396px; float:left; background-color:#636363; border:1px solid #323232;}
+
+.column2n {position:relative; min-height:776px; top:29px; width:396px; left:0px; float:right; background-color:#636363; border:1px solid #323232;}
+
+/* article page */
+
+.art1 {position:relative; height:auto; top:29px; width:798px; background-color:#636363; border:1px solid #323232;}
+
+/* team */
+
+.team {position:relative; height:320px; top:29px; width:798px; background-color:#636363; border:1px solid #323232;}
+
+/* content */
+
+.content {position:relative; background-image:url(../images/bgstyle/contentbg.jpg); background-repeat:repeat-x; height:150px; top:29px; width:798px; background-color:#636363; border:1px solid #323232;}
+
+.content2 {position:relative; height:auto; top:28px; width:798px; background-color:#636363; border:1px solid #323232;}
+
+/* images */
+
+.ipod {position:relative; left:20px; top:20px;}
+
+
+/* horizontal menu */
+
+ul#menu {margin:0px; padding:0px; list-style-type:none; width:auto; position:relative; display:block; height:35px; text-transform:capitalize; font-size:12px;	background:transparent url("../images/bgstyle/regular.jpg") repeat-x top left; font-family:Arial, Helvetica, sans-serif; border-top:1px solid #323232; border-right:1px solid #323232; border-bottom:1px solid #323232; border-left:1px solid #323232;}
+
+ul#menu li {display:block; float:left; margin:0px; padding:0px; border-right:1px solid #323232;}
+
+ul#menu li a {display:block; float:left; text-decoration:none; color:#ffffff; font-weight:bold; height:25px; padding-top:11px; padding-right:30px; padding-bottom:0px; padding-left:30px;}
+
+ul#menu li a:hover{background:transparent url("../images/bgstyle/hover.jpg") repeat-x top left;	color:#dddddd;}
+
+.current {background-image:url("../images/bgstyle/select.jpg"); background-repeat:repeat-x;}
+
+/* linking */
+
+a:link {color:#15305b; text-decoration:none; font-weight:bold;}
+a:hover {color:#84b2ff; text-decoration:none; font-weight:bold;}
+a:visited {color:#15305b; text-decoration:none; font-weight:bold;}
+
+     
+

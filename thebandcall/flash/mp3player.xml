@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player showDisplay="yes" showPlaylist="no" autoStart="yes">
+    <song path="mp3/shayad.mp3" title="Call - Shayad" />
+    <song path="mp3/kismet.mp3" title="Call - Kismet" />
+	<song path="mp3/pukaar.mp3" title="Call - Pukaar" />
+</player>

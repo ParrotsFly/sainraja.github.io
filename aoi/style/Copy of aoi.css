@@ -1,0 +1,109 @@
+/* 
+Name: Hussain Raja
+Date Created: 11/08/08
+Modifeid: 11/08/08
+*/
+
+/* main styles */
+/*
+margin-left:auto; margin-right:auto; top:-108px; right:430px;*/
+
+/* Reset */
+
+/*html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }*/
+
+body {background-color:#17320c; margin:0px;}
+
+div#center {position:relative; margin-left:auto; margin-right:auto; width:740px; height:100px; background-color:#d7ffc8; z-index:1;} 
+
+div#valid {position:relative; margin-left:0px; right:100px; top:-135px; width:176px; z-index:4;} 
+
+h1 {color:#006600; font-size:15px; font-family:"Times New Roman", Times, serif;}
+
+.home {float:left; margin-right:10px; margin-left:0px;}
+
+.home2 {float:right; margin-right:0px; margin-left:10px;}
+
+/* layout styles */
+
+#topbanner {position:relative; width:100%; height:77px; background-color:#ff8636; background-image:url(../images/bgstyle/tp_repeat.jpg); background-repeat:repeat-x; z-index:1;}
+
+.topmenubg {position:relative; width:100%; height:40px; background-color:#ff8636; background-image:url(../images/bgstyle/tp_repeat.jpg); background-repeat:repeat-x; z-index:1;}
+
+.tplogo {position:relative; top:-77px; width:740px; height:77px; background-image:url(../images/bgstyle/tp_banner.jpg); background-repeat:no-repeat; z-index:3;}
+
+.content {position:relative; width:740px; height:auto; background-color:#e3fdd9; border-style:solid; border-top:none; border-bottom:none; border-left:none; border-right:none; border-width:1px; border-color:#449923; top:-77px; z-index:2;}
+
+.tpmenu {position:relative; width:740px; height:40px; top:-77px; left:0px; background-color:#5BC236; border-style:solid; border-width:1px; border-top:none; border-bottom:none; border-left:none; border-right:none; border-color:#449923; z-index:1;}
+
+/*.footer {position:relative; width:740px; height:30px; background-color:#006600; background-image:url(../images/bgstyle/footer.jpg); background-repeat:repeat-x; top:-75px; border-color:#70d84a; border-style:solid; border-width:1px; z-index:1;}*/
+
+.footer {position:relative; width:740px; height:30px; background-color:#006600; background-image:url(../images/bgstyle/footer.jpg); background-repeat:repeat-x; top:30px; left:0px; z-index:1;}
+
+/* content styling */
+
+.column1 {position:relative; width:345px; background-color:#e3fdd9; height:auto; left:17px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+.text1 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}
+.column2 {position:absolute; float:right; width:350px; height:643px; background-color:#e3fdd9; left:370px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+.text2 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}
+
+/* history page */
+
+.column1h {position:relative; width:345px; background-color:#e3fdd9; height:auto; left:17px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text1 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+.column2h {position:absolute; float:right; width:350px; height:742px; background-color:#e3fdd9; left:370px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text2 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+
+/* about page */
+
+.column1aa {position:relative; width:703px; background-color:#e3fdd9; height:auto; left:17px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:4;}
+
+.column1a {position:relative; width:345px; background-color:#e3fdd9; height:auto; left:17px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text1 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+.column2a {position:absolute; float:right; width:350px; height:316px; background-color:#e3fdd9; left:370px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text2 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+
+/* contact page */
+
+.column1c {position:relative; width:345px; background-color:#e3fdd9; height:530px; left:17px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text1 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+.column2c {position:absolute; float:right; width:350px; height:530px; background-color:#e3fdd9; left:370px; top:17px; border-style:solid; border-width:1px; border-color:#70d84a; z-index:3;}
+/*.text2 {color:#275118; font-family:Arial, Helvetica, sans-serif; font-size:12px; padding-left:10px; padding-right:10px; padding-bottom:0px; padding-top:0px;}*/
+
+/* gallery page */
+
+.gallery {position:relative; width:703px; top:-5px; border-style:solid; border-left:none; border-right:none; border-bottom:none; border-width:1px; border-color:#70d84a; z-index:3;}
+
+/* menu styles */
+
+ul#menu {margin:0; padding:0; list-style-type:none;	width:auto;	position:relative; display:block; height:40px; text-transform:capitalize; font-size:13px;	background:transparent url("../images/bgstyle/regular.jpg") repeat-x top left; font-family:Helvetica,Arial,Verdana,sans-serif;}
+
+ul#menu li{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	border-right:1px solid #449923;
+	}
+ul#menu li a{
+	display:block;
+	float:left;
+	color:#275118;
+	text-decoration:none;
+	font-weight:bold;
+	padding:12px 20px 0 20px;
+	height:28px;
+	}
+ul#menu li a:hover{
+	background:transparent url("../images/bgstyle/hover.jpg") repeat-x top left;	
+	}      
+	
+.current {background-image:url(../images/bgstyle/hover.jpg); background-repeat:repeat-x;}
+
+/* link styles */
+
+a:link {color:#152e0b; text-decoration:none; font-weight:bold;}
+a:hover {color:#69d043; text-decoration:underline; font-weight:bold;}
+a:visited {color:#152e0b; text-decoration:none; font-weight:bold;}
+

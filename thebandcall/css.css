@@ -1,0 +1,222 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif; background-color:#022035;
+
+}
+
+.body2 {
+	font-family: Verdana, Helvetica, sans-serif; background-color:#1450A0;
+}
+
+.background {position:absolute; background-image:url(images/rpt.jpg); width:100%; padding-right:0px; height:620px; left:0px; background-repeat:repeat-x; z-index:5; top:100px;
+
+}
+
+.enter {position:absolute; padding-right:0px; top:730px; left:0px; width:100%; height:38px; background-color:#417CCA; z-index:8;
+
+}
+
+.entpic {position:absolute; top:25%; left:20%; z-index:9;
+
+}
+
+.buttons {position:absolute; top:780px; left:25px; height:38px; z-index:8;
+
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#out {position:absolute; background-image:url(images/sidebar.png); background-repeat:repeat-y; height:588px; top:0px; left:760px; width:30px; z-index:9;
+
+}
+
+#mp3jukebox {position:absolute; left:680px; top:520px; z-index:9;
+
+}
+
+#mp3jukebox1 {position:absolute; left:660px; top:530px; z-index:9;
+
+}
+
+#menu {position:absolute; width:760px; height:26px; top:562px; bottom:0px; left:0px; z-index:8;
+
+}
+
+/* site code */
+
+.text {position:absolute; left:170px; top:5px; width:585px; color:#FFFFFF; z-index:9;
+
+}
+
+.lyrics {position:absolute; font-size:11px; color:#FFFFFF; z-index:9;
+
+}
+
+.text3 {position:absolute; left:15px; top:195px; width:377px; color:#FFFFFF; z-index:9;
+
+}
+
+.img {position:absolute; left:15px; top:5px; z-index:9;
+
+}
+
+h1 {color:#0a356f; font-size:13px; margin:0px; padding:0px; font-weight:bold; z-index:9;}
+
+h2 {color:#ffffff; font-size:12px; margin:0px; padding:0px; font-weight:bold;}
+
+.head {position:absolute; font-size:10px; color:#CCCCCC; font-weight:bold; z-index:9;
+
+}
+
+.text2 {position:absolute; left:424px; top:5px; color:#FFFFFF; padding-right:3px; z-index:9;
+
+}
+
+.small {position:absolute; font-style:italic; font-size:10px; z-index:9;
+
+}
+
+.textbot {position:absolute; left:255px; top:412px; color:#FFFFFF; padding-right:3px; z-index:9;
+
+}
+
+
+#content {
+	font-family: Verdana, Helvetica, sans-serif; position: absolute; background-color:#2569C3; left:0px; top:0px; width:760px; height:550px; z-index:6;
+}
+	
+.ban {position:absolute; left:0px; top:0px; z-index:8;
+}
+
+.textcontent {position:absolute; overflow:auto; width:750px; height:458px; top:0px; left:0px; color:#ffffff; padding-top:5px; padding-left:5px; padding-right:5px; padding-bottom:0px; z-index:9;
+}
+
+
+.logo {position:absolute; top:65px; left:285px; z-index:8;
+}
+
+.textarea {position:absolute; top:103px; left:0px; /*background-image:url(images/textbg.jpg); background-repeat:repeat-y;*/ background-color:#2B76D9; font-size:11px; width:760px; height:88%; z-index:7;
+}
+
+.textarea2 {position:absolute; top:103px; left:0px; /*background-image:url(images/textbg.jpg); background-repeat:repeat-y;*/ background-color:#1450a0; font-size:11px; width:760px; height:88%; z-index:7;
+}
+
+
+/* site updates */
+
+.updates {color:#FFFFFF; font-size:10px; text-decoration:underline;
+
+}
+
+.updates2 {color:#FFFFFF; font-size:10px; text-decoration:none;
+
+}
+
+.updates3 {color:#FFFFFF; font-size:11px; text-decoration:none;
+
+}
+
+.box {position:absolute; background-image:url(images/grad_side.jpg); background-repeat:repeat-x; top:5px; left:5px; width:135px; padding-left:5px; padding-top:0px; height:176px; background-color:#1450A0; border:1px; border-bottom-color:#002552; border-bottom-style:solid; border-left-color:#002552; border-left-style:solid; border-top-color:#002552; border-top-style:solid; border-right-color:#002552; border-right-style:solid; z-index:9;
+
+}
+
+.box4 {position:absolute; top:5px; left:5px; width:130px; padding-left:5px; padding-top:0px; height:445px; background-color:#1450A0; border:1px; border-bottom-color:#234067; border-bottom-style:solid; border-left-color:#234067; border-left-style:solid; border-top-color:#234067; border-top-style:solid; border-right-color:#234067; border-right-style:solid; z-index:8;
+
+}
+
+.box6 {position:absolute; top:5px; left:146px; width:600px; padding-left:5px; padding-top:5px; height:440px; background-color:#1450A0; border:1px; border-bottom-color:#234067; border-bottom-style:solid; border-left-color:#234067; border-left-style:solid; border-top-color:#234067; border-top-style:solid; border-right-color:#234067; border-right-style:solid; z-index:7;
+
+}
+
+.box7 {position:absolute; top:5px; left:206px; width:540px; padding-left:0px; padding-top:0px; padding-bottom:0px; padding-right:0px; height:440px; background-color:#1450A0; border:1px; border-bottom-color:#234067; border-bottom-style:solid; border-left-color:#234067; border-left-style:solid; border-top-color:#234067; border-top-style:solid; border-right-color:#234067; border-right-style:solid; z-index:7;
+
+}
+
+.boxh {position:relative; background-image:url(images/latest_side.jpg); background-repeat:no-repeat; width:142px; height:34px; left:-5px;}
+.boxh2 {position:relative; background-image:url(images/updates_side.jpg); background-repeat:no-repeat; width:142px; height:34px; left:-5px;}
+.boxh3 {position:relative; background-image:url(images/album_side.jpg); background-repeat:no-repeat; width:142px; height:34px; left:-5px;}
+.boxh4 {position:relative; background-image:url(images/album2_side.jpg); background-repeat:no-repeat; width:142px; height:34px; left:-5px;}
+
+.box2 {position:absolute; background-image:url(images/grad_side.jpg); background-repeat:repeat-x; top:192px; left:5px; width:135px; padding-left:5px; padding-top:0px; height:255px; background-color:#1450A0; border:1px; border-bottom-color:#002552; border-bottom-style:solid; border-left-color:#002552; border-left-style:solid; border-top-color:#002552; border-top-style:solid; border-right-color:#002552; border-right-style:solid; z-index:9;
+
+}
+
+.box3 {position:absolute; top:5px; left:5px; width:135px; padding-left:5px; padding-top:0px; height:442px; background-color:#1450A0; border:1px; border-bottom-color:#234067; border-bottom-style:solid; border-left-color:#234067; border-left-style:solid; border-top-color:#234067; border-top-style:solid; border-right-color:#234067; border-right-style:solid; z-index:9;
+
+}
+
+.jun {position:absolute; background-image:url(images/junaid.jpg); background-repeat:no-repeat; top:5px; left:18px; width:100px; height:95px; z-index:9;
+
+}
+
+.sul {position:absolute; background-image:url(images/sultan.jpg); background-repeat:no-repeat; top:5px; left:18px; width:100px; height:95px; z-index:9;
+
+}
+
+.xul {position:absolute; background-image:url(images/xulfi.jpg); background-repeat:no-repeat; top:5px; left:18px; width:100px; height:95px; z-index:9;
+
+}
+
+.waq {position:absolute; background-image:url(images/waqar.jpg); background-repeat:no-repeat; top:5px; left:18px; width:100px; height:95px; z-index:9;
+
+}
+
+.protext {position:absolute; top:110px; font-size:10px;
+
+}
+
+ul {padding-left:8px; margin-top:2px; margin-left:3px
+
+}
+
+.cd {position:absolute; top:0px; left:0px; padding:0px; z-index:8;
+
+}
+
+.band {position:absolute; left:100px; top:0px; padding:0px; z-index:8;
+
+}
+
+.box5 {position:absolute; top:0px; left:0px; width:300px; margin:0px; padding:0px; height:300px; background-color:#1450A0; border:1px; border-bottom-color:#234067; border-bottom-style:solid; border-left-color:#234067; border-left-style:solid; border-top-color:#234067; border-top-style:solid; border-right-color:#234067; border-right-style:solid; z-index:9;
+
+}
+
+.mp3 {position:absolute; top:590px; left:15px; z-index:9;
+
+}
+
+.photoalbum {position:absolute; top:0px; left:15px; background-color:#1450A0;}
+
+/*.bottomright {border:1px; border-style:solid; border-color:#234067; border-top:none; border-left:none;
+
+}*/
+
+/*.nobottom {border:1px; border-style:solid; border-color:#234067; border-top:none; border-left:none; border-bottom:none;
+
+}
+
+.right {border:1px; border-style:solid; border-color:#234067; border-top:none; border-left:none; border-bottom:none; border-right:none;
+
+}*/
+
+.topbot {font-size:14px; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-weight:bold;}
+
+
+/* Link style */
+
+a:link {color:#FFFFFF; text-decoration:none;
+}
+
+a:hover {color:#549EFF; text-decoration:underline;
+
+}
+
+a:visited {color:#BABABA; text-decoration:none;
+
+}
+

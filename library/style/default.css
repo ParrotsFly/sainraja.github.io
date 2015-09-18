@@ -1,0 +1,389 @@
+/* Ashburn Library */
+
+/* Reset */
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,
+pre, form, fieldset, table, th, td, span { margin: 0; padding: 0; }
+
+body {font-family:Arial, Helvetica, sans-serif; color:#8cabad; background-color:#ffffff; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;}
+
+h1 {font-size:24px; font-weight:bold; color:#0b8c8f; font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+
+h2 {font-size:12px; font-weight:bold; color:#ffffff; font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+
+h3 {font-size:20px; font-weight:bold; color:#0b8c8f; font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+
+h4 {font-size:15px; text-transform:capitalize; font-weight:bold; color:#0b8c8f; font-family:Arial, Helvetica, sans-serif; margin:0px; padding:0px;}
+
+.textlog {color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:10px;}
+
+/* text styling */
+
+.header1 {color:#6a9395;
+		  left:16px;
+		  font-weight:bold;
+		  top:11px;
+		  position:relative;
+		 }
+		 
+.logo {position:relative;
+	   background-image:url(../images/logo.png);
+	   background-repeat:no-repeat;
+	   width:101px;
+	   height:58px;
+	   top:-31px;
+	   left:36px;
+       z-index:6;}
+
+/* layout */
+
+div#global {position:relative;
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom:0px;
+			margin-top:0px;
+			width:926px;
+			height:0px;
+			z-index:1;
+			}
+			
+#header {position:relative; 
+		 background-image:url(../images/banner_home.jpg);
+		 background-repeat:no-repeat;
+		 width:926px;
+		 height:89px;
+		 z-index:2;
+		 }
+		 
+/* side menu */
+
+#sidemenu {position:relative;
+		   width:158px;
+		   height:284px;
+		   left:0px;
+		   top:9px;
+		   background-image:url(../images/sidemenu.jpg);
+		   background-repeat:no-repeat;
+		   z-index:3;
+		   color:#000000;
+		   }
+		   
+/* form styles */
+
+#login		{position:relative;
+			 width:539px;
+			 height:53px;
+/*			 border-color:#FFFFFF;
+			 border-style:solid;
+			 border-width:1px;*/
+			 z-index:5;
+			 top:34px;
+			 left:373px;
+			 }
+			 
+.spacing	{position:relative;
+             left:190px;
+			 top:-17px;
+			 width:424px;
+			 height:100px;
+			 color:#000000;
+			 font-weight:bold;
+			 }
+			 
+.login_1	{position:relative;
+			 width:115px;
+			 height:15px;
+             left:45px;
+			 top:-6px;
+			 font-size:12px;
+			 color:#960b2c;
+			 text-align:center;
+			 background-color:#ffffff;
+			 border-color:#414141;
+			 border-style:solid;
+			 border-width:1px;
+			 }
+			 
+.password_1	{position:relative;
+			 width:115px;
+			 height:15px;
+             left:50px;
+			 top:-6px;
+			 font-size:12px;
+			 color:#960b2c;
+			 text-align:center;
+			 background-color:#ffffff;
+			 border-color:#414141;
+			 border-style:solid;
+			 border-width:1px;
+			 }
+
+.button_1	{position:relative;
+			 background-image:url(../images/login.png);
+			 background-repeat:no-repeat;
+			 width:39px;
+			 height:40px;
+             left:55px;
+			 top:9px;
+			 color:#FFFFFF;
+			 font-weight:bold;
+			 font-size:12px;
+			 }
+			 
+#regfield    {position:relative;
+			  width:756px;
+			  height:378px;
+			  left:170px;
+			  top:-275px;
+			  color:#333333;
+			  background-image:url(../images/registerpage.jpg);
+			  background-repeat:no-repeat;
+			  }
+			  
+.error_txt	{padding-left:15px;
+			 padding-top:15px;
+			 color:#6a9395;
+			 }
+			 
+.user_register	{position:relative;
+				font-family:Arial, Helvetica, sans-serif;
+			 	width:239px;
+			 	height:30px;
+/*             	left:257px;
+			 	top:50px;*/
+			 	color:#cacaca;
+			 	font-weight:bold;
+			 	font-size:25px;
+				text-align:center;
+				border-color:#e3e3e3;
+			    border-style:solid;
+			 	border-width:1px;
+			 	}
+				
+.password_register	{position:relative;
+					 font-family:Arial, Helvetica, sans-serif;
+			 		 width:239px;
+			 	 	 height:30px;
+/*             	 	 left:10px;
+			 	 	 top:100px;*/
+			 	 	 color:#cacaca;
+			 	 	 font-weight:bold;
+			 	 	 font-size:25px;
+				 	 text-align:center;
+					 border-color:#e3e3e3;
+			    	 border-style:solid;
+			 		 border-width:1px;
+			 		 }
+				
+.email_register	{position:relative;
+				font-family:Arial, Helvetica, sans-serif;
+			 	width:239px;
+			 	height:30px;
+/*             	left:-236px;
+			 	top:150px;*/
+			 	color:#cacaca;
+			 	font-weight:bold;
+			 	font-size:22px;
+				text-align:center;
+				border-color:#e3e3e3;
+			    border-style:solid;
+			 	border-width:1px;
+			 	}
+				
+.submit_register	{position:relative;
+/*             		left:240px;
+			 		top:165px;*/
+			 		}
+					
+/* data for browse table */
+
+.data {position:relative;
+	   left:0px;
+	   top:5px;
+	   text-align:left;
+	   font-size:12px;
+	   padding-left:40px;
+	   padding-top:10px;
+	   }
+
+		   
+/* content elements */
+
+/* add page */
+
+#addfield    {position:relative;
+			  width:756px;
+			  height:430px;
+			  left:170px;
+			  top:-275px;
+			  color:#333333;
+			  background-image:url(../images/addpage.jpg);
+			  background-repeat:no-repeat;
+			  }
+
+/* member page */
+
+#memberpage  {position:relative;
+			  width:756px;
+			  height:378px;
+			  left:170px;
+			  top:-275px;
+			  color:#333333;
+			  background-image:url(../images/registerpage.jpg);
+			  background-repeat:no-repeat;
+			  }
+			  
+.mem_txt	{padding-left:15px;
+			 padding-right:15px;
+			 padding-top:15px;
+			 color:#6a9395;
+			 }
+
+
+
+/* main page */
+
+.account	{position:relative;
+			 width:276px;
+			 height:137px;
+			 background-image:url(../images/textbg.jpg);
+			 background-repeat:no-repeat;
+			 top:-275px;
+			 left:167px;
+			 z-index:4;
+			 }
+			 
+.benefits	{position:relative;
+			 width:276px;
+			 height:137px;
+			 background-image:url(../images/textbg.jpg);
+			 background-repeat:no-repeat;
+			 left:167px;
+			 top:-264px;
+			 z-index:4;
+			 }
+
+.update		{position:relative;
+			 width:468px;
+			 height:285px;
+			 background-image:url(../images/update.jpg);
+			 background-repeat:no-repeat;
+			 left:460px;
+			 top:-549px;
+			 z-index:4;
+			 }
+			 
+/* search form */
+
+.searchform {width:156px;
+			 height:25px;
+			 color:#68babc;
+			 font-weight:bold;
+			 font-size:13px;
+			 text-align:center;
+			 vertical-align:middle;
+			 background-image:url(../images/search.png);
+			 background-repeat:no-repeat;
+			 background-color:#68babc;
+			 text-transform:uppercase;
+			 border-color:#68babc;
+			 border-style:solid;
+			 border-width:1px;
+			 }
+			 
+/* registration */
+
+.box {position:relative;
+	  width:239px;
+	  height:auto;
+	  left:260px;
+	  top:10px;
+	  text-align:center;
+	  color:#0b8c8f;
+	  font-weight:bold;
+	  font-family:Arial, Helvetica, sans-serif;
+	  }
+	  
+.padding2 {padding-top:10px;
+		  padding-bottom:10px;
+		  }
+		  
+.padding3 {padding-top:25px;
+		  padding-bottom:0px;
+		  }
+	  
+.padding {padding-top:0px;
+		  padding-bottom:10px;
+		  }
+
+.reg			{list-style-type:none;
+			 	margin:0px 0px;
+			 	padding-left:0px;
+				padding-right:0px;
+				padding-top:5px;
+				padding-bottom:5px;
+			 	width:239px;
+			 	border:0px solid #9A9A9A;
+			 	border-bottom-width:0px;
+			 	}
+
+.reg li a{background-color:#68babc;
+				 font-weight:bold;
+				 font-size:16px;
+				 font-family:Arial, Helvetica, sans-serif;
+				 display:block;
+				 width:auto;
+				 padding:15px 0;
+				 padding-left:35px;
+				 text-decoration:none;
+				 }
+
+* html .reg li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+						width:239px;
+						}
+
+		 
+		 
+/* Styling for the Menu */
+
+.glossymenu		{list-style-type:none;
+			 	margin:0px 0px;
+			 	padding-left:0px;
+				padding-right:0px;
+				padding-top:13px;
+			 	width:158px;
+			 	border:0px solid #9A9A9A;
+			 	border-bottom-width:0px;
+				text-transform:capitalize;
+			 	}
+
+.glossymenu li a{background-color:#68babc;
+				 font-weight:bold;
+				 font-size:16px;
+				 font-family:Arial, Helvetica, sans-serif;
+				 color:white;
+				 display:block;
+				 width:auto;
+				 padding:6px 0;
+				 padding-left:35px;
+				 text-decoration:none;
+				 }
+
+* html .glossymenu li a{ /*IE only. Actual menu width minus left padding of A element (10px) */
+						width:158px;
+						}
+
+.glossymenu li a:visited, .glossymenu li a:active{color:#ffffff;
+												  }
+
+.glossymenu li a:hover {background-color:#9de1e3;
+						background-image:url(../images/hover.jpg);
+						background-repeat:no-repeat;
+						color:#0b8c8f;
+					    }
+						
+/* link styling */
+
+a:link {color:#68babc; text-decoration:none;}
+a:hover {color:#68babc; text-decoration:none;}
+a:visited {color:#68babc; text-decoration:none;}

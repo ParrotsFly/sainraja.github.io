@@ -1,0 +1,92 @@
+/*
+
+Title: Virginia
+Author: Hussain Raja
+Date: 05/21/09
+
+ */
+ 
+ /* Reset */ 
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, blockquote,
+pre, form, fieldset, table, th, td { margin: 0; padding: 0; }
+ /* Reset */
+
+body {background-color:#ece3bd; margin:0px;}
+
+#center {position:relative; margin-left:auto; margin-right:auto; width:1024px;}
+
+.banner {position:relative; width:1024px; height:62px; top:0px; left:0px; background-image:url(../images/bn_rpt.jpg); background-repeat:repeat-x;}
+
+.lower-banner-curve {position:relative; width:1024px; height:14px; top:0px; left:0px; background-image:url(../images/lower_bn.jpg); background-repeat:no-repeat;}
+
+.header {position:relative; width:1024px; height:37px; background-image:url(../images/head_rpt.jpg); background-repeat:repeat-x; float:right; top:50px;}
+
+.header2 {position:relative; width:1024px; height:37px; background-image:url(../images/head_rpt.jpg); background-repeat:repeat-x; float:right; top:5px;}
+
+/*.footer {position:relative; width:1024px; height:40px; top:50px; float:right;}
+
+.footer_txt {padding-top:7px; text-align:center; color:#a6082b; font-size:16px;}*/
+
+.htext {padding-left:15px; text-transform:inherit; padding-top:11px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.article {position:relative; width:1024px; height:auto; float:right; top:50px; border:dotted; border-color:#a6082b; border-width:2px; border-top:none; border-left:none; border-right:none;}
+
+.article2 {position:relative; width:1024px; height:auto; float:right; top:0px; border:dotted; border-color:#a6082b; border-width:2px; border-top:none; border-left:none; border-right:none;}
+
+.atext {padding-bottom:5px; padding-top:11px; color:#a6082b; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+
+/* video section */
+
+.thumbs {position:relative; float:left; width:336px; height:85px; top:35px;}
+
+.shopthumb {padding-right:15px;}
+
+.headertravel {position:relative; width:336px; height:37px; background-image:url(../images/head_rpt.jpg); background-repeat:repeat-x; float:left; top:50px;}
+
+.htext_travel {padding-left:15px; text-transform:inherit; padding-top:11px; color:#FFFFFF; font-family:Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold;}
+
+.ttext {padding-bottom:20px; padding-top:11px; color:#a6082b; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+
+.articlet {position:relative; width:336px; height:auto; float:left; top:50px;}
+
+.video {position:relative; width:648px; height:480px; float:right; top:5px;}
+
+/* end video section */
+
+.visit-box {position:relative; top:5px; left:0px; float:left; width:336px; height:243px;}
+
+.commute-box {position:relative; top:5px; left:7px; float:left; width:336px; height:243px;}
+
+.other-box {position:relative; top:5px; left:15px; float:left; width:336px; height:243px;}
+
+.visit-box-header {width:336px; height:36px; background-image:url(../images/visit_box_header.jpg); background-repeat:no-repeat;}
+
+.commute-box-header {width:336px; height:36px; background-image:url(../images/commute_box_header.jpg); background-repeat:no-repeat;}
+
+.other-box-header {width:336px; height:36px; background-image:url(../images/other_box_header.jpg); background-repeat:no-repeat;}
+
+.intro-box-header {width:336px; height:36px; background-image:url(../images/intro_box_header.jpg); background-repeat:no-repeat;}
+
+.nav-menu-style {position:relative; top:0px; width:100%; height:30px; /*background-image:url(../images/menu_rpt.jpg); background-repeat:repeat-x;*/ font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#950520; font-weight:bold;}
+
+.nav-menu-style ul {overflow:hidden; text-align:left; margin:0px; padding:6px 15px;} 
+
+.nav-menu-style ul li {display:inline; list-style-type:none;}
+
+.nav-menu-style ul li a {color:#a10729; padding:6px 12px 6px 6px; text-decoration:none; margin:0px; border-right:1px #ffffff;}
+
+.nav-menu-style li a:hover {color:#72031a; padding:6px 12px 6px 6px; text-decoration:none; margin:0px; border-right:1px #ffffff;}
+
+#current {color:#c90e45; text-decoration:none;}
+
+a:link {color:#a10729; text-decoration:none; font-weight:bold;}
+
+a:hover {color:#72031a; text-decoration:none;}
+
+a:visited {color:#a10729; text-decoration:none; font-weight:bold;}
+
+
+
+
+
+

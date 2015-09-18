@@ -1,0 +1,284 @@
+/* CSS Styles for Playstation Gamer 
+Author: Hussain Raja
+Date: Saturday, August 9th, 2008
+*/
+
+/* Styles for the main elements */
+body {background-color:#151515; margin-top:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+h1 {font-weight:normal;
+    color:#6B6A68;
+	font-size:12px;
+	margin:0px;
+	}
+	
+h2 {font-weight:bold;
+    color:#c70100;
+	font-size:13px;
+	margin:0px;
+	}
+	
+h3 {font-weight:normal;
+    color:#b00000;
+	font-size:12px;
+	margin:0px;
+	}
+
+/* Position for Content Elements */
+
+div#global {
+	        position:relative;
+	        margin-left:auto;
+	        margin-right:auto;
+	        width:740px;
+	        } 
+
+#content {position:absolute;
+		  width:740px;	
+     	  height:auto;
+		  }
+		  
+.tplogo  {position:relative;
+          width:740px;
+          height:160px;
+		  background-image:url(../images/bg_banner.jpg);
+		  background-color:#242424;
+		  background-repeat:no-repeat;
+		  }
+		  		  
+.tpmenu	  {position:relative;
+           width:740px;
+		   height:28px;
+		   top:0px;
+		   background-color:#274e84;
+		   }
+		   
+.updatehighlights {position:relative;
+                  background-image:url(../images/grad_rpt.jpg);
+				  background-repeat:repeat-x;
+				  width:740px;
+				  height:20px;
+				  }
+		   
+.index    {width:740px;
+           height:auto;
+		   background-color:#2a2927;
+/*		   background-image:url(../images/psg_bg2.jpg);*/
+		   background-repeat:repeat-x;
+		   position:relative;
+		   color:#cccccc;
+		   }
+		   
+.text      {width:320px;
+			position:relative;
+		   left:10px;
+           padding-left:10px;
+		   padding-top:5px;
+		   padding-right:10px;
+		   padding-bottom:5px;
+		    }
+		   
+.curve 		{width:365px;
+			 height:12px;
+			 background-image:url(../images/topcurve.jpg);
+			 background-repeat:no-repeat;
+			 left:-12px;
+			 top:-12px;
+			 position:relative;
+			 }
+			 
+.curve2 		{width:366px;
+			 height:22px;
+			 background-image:url(../images/curve2.jpg);
+			 background-repeat:no-repeat;
+			 left:-10px;
+			 top:6px;
+			 position:relative;
+			 }
+			 
+.gamecontent {width:336px;
+			  height:290px;
+			  left:10px;
+			  position:relative;
+			  }
+			  
+.uptext      {
+			  left:10px;
+			  position:relative;
+			  }
+		   
+.text2      {position:absolute;
+            background-image:url(../images/side_bg.jpg);
+			background-repeat:repeat-y;
+           left:365px;
+		   height:auto;
+       	   width:320px;
+		   padding-left:10px;
+		   padding-top:0px;
+		   padding-right:10px;
+		   padding-bottom:5px;
+		   top:14px;
+		   }
+		   
+.newstext  {padding-left:20px;
+            position:relative;
+		   padding-top:1px;
+		   padding-right:10px;
+		   padding-bottom:5px;
+		   }
+		   
+.contentext  {padding-left:0px;
+            position:relative;
+		   padding-top:1px;
+		   padding-right:10px;
+		   padding-bottom:5px;
+		   }
+		   
+/* content.htm */
+.contentarea {position:relative; top:0px; width:740px; height:128px; background-image:url(../images/cont_area.jpg); background-repeat:repeat-x;}
+
+.cont_head {position:relative; width:740px; height:38px; background-image:url(../images/cont_head.jpg); background-repeat:repeat-x;}
+
+.d_content {position:relative; background-color:#191919; width:740px; height:auto; background-image:url(../images/d_content.jpg); background-repeat:repeat-x;}
+
+.indexc    {
+		   background-repeat:repeat-x;
+		   position:relative;
+		   color:#cccccc;
+		   top:5px;
+		   padding-left:0px;
+		   padding-top:10px;
+		   padding-bottom:10px;
+		   padding-right:10px;		   
+		   }
+
+.button1 {position:relative; width:103px; height:103px; left:57px; top:3px;}
+
+.button2 {position:relative; width:103px; height:103px; left:81px; top:3px;}
+
+.button3 {position:relative; width:103px; height:103px; left:106px; top:3px;}
+
+.button4 {position:relative; width:103px; height:103px; left:131px; top:3px;}
+
+.button5 {position:relative; width:103px; height:103px; left:156px; top:3px;}
+		   
+.info      {position:relative;
+			background-image:url(../images/menu_bg.jpg);
+            background-repeat:repeat-x;
+			width:740px;
+			height:28px;
+     		top:0px;
+            border-style:solid;
+		    border-color:#000000;
+		    border-width:1px;
+		    border-left:none;
+		    border-right:none;
+			}
+
+/* horizontal menu */
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.solidblockmenu{
+margin: 0;
+padding: 0;
+float: left;
+font-size:12px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+width:100%;
+overflow: hidden;
+margin-bottom:0px;
+border:0px;
+border-width: 0px 0;
+background-color:#2a2927;
+background-image:url(../images/menu_bg.jpg);
+background-repeat:repeat-x;
+}
+
+.solidblockmenu li{
+display: inline;
+}
+
+.solidblockmenu li a{
+float: left;
+color:#ffffff;
+padding: 7px 11px;
+text-decoration: none;
+}
+
+.solidblockmenu li a:visited{
+/*color:#7ab2ff;*/
+}
+
+.solidblockmenu li a:hover{
+color:#000000;
+background-color:#9b0101;
+background-image:url(../images/hover.jpg);
+background-repeat:repeat-x;
+}
+
+.solidblockmenu li .current{
+color:#ffffff;
+background-color:#b00000;
+background-image:url(../images/current.jpg);
+background-repeat:repeat-x;
+}
+
+/* end hover menu */
+
+/* horizontal menu 2 */
+/*Credits: Dynamic Drive CSS Library */
+/*URL: http://www.dynamicdrive.com/style/ */
+
+.solidblockmenu2{
+margin-top:0px;
+margin-right:0px;
+margin-bottom:0px;
+margin-left:260px;
+padding: 0;
+float:left;
+font-size:12px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+/*width:100%;*/
+overflow: hidden;
+margin-bottom:0em;
+border:0px;
+border-width: 0px 0;
+background-image:url(../images/menu_bg.jpg);
+background-repeat:repeat-x;
+}
+
+.solidblockmenu2 li{
+display: inline;
+}
+
+.solidblockmenu2 li a{
+float:left;
+color:#ffffff;
+padding:7px 11px;
+text-decoration: none;
+}
+
+.solidblockmenu2 li a:visited{
+/*color:#7ab2ff;*/
+}
+
+.solidblockmenu2 li a:hover{
+color:#000000; 
+background-image:url(../images/hover.jpg);
+background-repeat:repeat-x;
+}
+
+.solidblockmenu2 li .current{
+background-color:#b00000;
+background-image:url(../images/current.jpg);
+background-repeat:repeat-x;
+}
+
+/* end hover menu 2*/
+
+a:link {text-decoration:underline; color:#cccccc;}
+a:visited {text-decoration:underline; color:#cccccc;}
+a:hover {text-decoration:underline; color:#adacac;}

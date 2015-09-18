@@ -1,0 +1,1115 @@
+/* Leukemia Ball Society Page */
+
+body {background-color:#333333;  
+	font-size:14px; 
+	color:#ffffff; 
+	font-family: Helvetica, Arial, sans-serif;
+	}
+
+.heading {font-weight:bold;}
+
+div#global {
+		position:relative;
+		margin-left:auto;
+	    margin-right:auto;
+	    width:740px;
+	     }
+
+div#content {
+	position:absolute;
+	background: #1e1e1e;
+	width:740px;
+	height:auto;
+	top:300px;
+	left:-1px;
+	z-index: 1;
+	}
+	
+div#left{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 715px;
+	height: auto;
+	padding-bottom: 20px;
+	}
+
+div#left2{ position: absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 550px;
+	height: auto;
+	z-index: 5;
+	right: 0px;
+	top: 40px;
+	}
+		
+div#indexleft{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	width: 690px;
+	height: auto;
+	padding-bottom: 20px;
+	}
+		  
+div#leftsociety{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 715px;
+	height: auto;
+	padding-bottom: 20px;
+	}
+	
+div#society{
+	margin-top:0px;
+	margin-right: 20px;
+	width: 690px;
+	height: auto;
+	padding-bottom: 20px;
+	}
+	
+div#indexright{
+	width: 160px;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	padding: 10px;
+	float: right;
+	}
+	
+
+div#right{
+	width: 160px;
+	height: auto;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-bottom: 60px;
+	padding: 10px;
+	float: right;
+	}
+	
+div#righttext{
+	width: 160px;
+	height: auto;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+	float: right;
+	border-style:solid;
+	border-width:1px;
+	border-bottom-color:#d9d9d9;
+	border-top-color:#d9d9d9;
+	border-left-color:#d9d9d9;
+	border-right-color:#d9d9d9;
+	}
+	
+	
+/* committee */
+
+div#com2{ position: absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 550px;
+	height: auto;
+	z-index: 5;
+	right: 0px;
+	top: 40px;
+	}
+	
+div#ball2{ 
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:10px;
+	margin-bottom:20px;
+	width: 500px;
+	float: right;
+	height: auto;
+	z-index: 5;
+	right: 0px;
+	}
+	
+div#leftpast{ 
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 540px;
+	height: auto;
+	z-index: 3;
+	float: right;
+	}
+
+
+div#logo2 {
+	float: right;
+	margin-top:-30px;
+	margin-right: 20px;
+	margin-left: 10px;	
+	width: 160px;
+    height: 116px;
+	background: #1e1e1e;
+	margin-bottom: 20px;
+	background-image:url(../images/logo.gif);
+	background-repeat:no-repeat;
+	}
+
+.nav {margin:0; 
+	padding:0; 
+	float:left; 
+	font:bold 13px Helvetica; 
+	width:740px; /*border:1px solid #d9d9d9;*/ 
+	border-width:1px 0; 
+	background-color:#6666CC; 
+	z-index:5;
+	} 
+	  
+.nav li {display:inline;
+	}
+
+.nav li a {color:#FFFFFF; 
+	padding:6px 11px; 
+	float:left; 
+	text-decoration:none; 
+	border-right:1px solid; 
+	border-color:#2f2f7c;
+	}
+.nav li a:visited {color:#ffffff;}
+.nav li a:hover {color:#ffffff; background-color:#9999ff; /*background-image:url(../images/active.gif)*/;}
+.nav li .current {color:#ffffff; background-color:#45459f;}
+
+/* link styles */
+
+a:link {color:#ffffff;}
+a:visited  {color:#ffffff;}
+a:hover {color:#ffffff;}
+
+p.iepara{ /*Conditional CSS- For IE (inc IE7), create 1em spacing between menu and paragraph that follows*/
+padding-top: 1em;
+}
+	
+div#subMenu {
+	float: left;
+	margin-right: 20px;	
+	padding-left: 20px;
+	width: 155px;
+    height:auto;
+	background: #999;
+	margin-bottom: 100px;
+	font-size: 11px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc
+	}
+
+div#ban {top:0px;
+         left:0px;
+		 background-image:url(../images/ban_01.gif);
+		 background-repeat:no-repeat;
+		 width:100%;
+		 height:73px;
+		 background-color:#1e1e1e;
+		 }
+		 
+.alignright {position:relative; left:570px; width:150px;}
+		 
+			
+div#ballSubMenu {
+	float: left;
+	margin-right: 20px;	
+	padding-left: 20px;
+	width: 155px;
+    height:auto;
+	background: #999;
+	margin-bottom: 10px;
+	font-size: 11px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc
+	}
+
+
+div#quicklinks{
+	position:absolute;
+	padding-top:2px;
+	width:740px;
+	height:22px;
+	left:0px;
+	bottom: 0px;
+	border-style:none;
+	border-width:1px;
+	border-top-color:#d9d9d9;
+	font-size:12px;
+	z-index:3;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #fff;
+	}
+	
+div#quicklinks2{
+	background-color:#1e1e1e;
+/*	position:absolute;*/
+	padding-top:2px;
+	width:740px;
+	height:22px;
+	top:0px;
+	left:0px;
+	bottom: 0px;
+	border-style:none;
+	border-width:1px;
+	border-top-color:#d9d9d9;
+	font-size:12px;
+	z-index:3;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #fff;
+	z-index:7px;
+	}
+
+
+a.bottom:link {
+	color:#ffffff; 
+	text-decoration:none;
+	font-size: 11px;
+	}
+
+a.bottom:hover {
+	color:#ffffff; 
+	text-decoration:none;
+	font-size: 11px;
+	}
+
+a.bottom:visited {color:#ffffff; 
+	text-decoration:none;
+	font-size: 11px;
+	}
+
+
+
+div#back {
+	position:absolute;
+	background-color:#lelele;
+	width:740px;
+	height:auto;
+	top:45px;
+	z-index:1;
+	left: 33px;
+	}
+
+/* Back div for sitemap page */
+
+div#back2 {
+	position:absolute;
+	background-color:#lelele;
+	width:740px;
+	height:auto;
+	top:-17px;
+	z-index:1;
+	left: 33px;
+	}
+	
+div#smap {position:absolute;
+		  background-color:#1e1e1e;
+		  top:20px;
+		  left:1px;
+		  width:100%;
+		  height:auto;
+		  padding:10px;
+		  padding-right:0px;
+		  padding-left:0px;
+		  padding-bottom:0px;
+		  }
+
+.padding {padding-left:10px;
+          padding-right:10px;
+		  padding-bottom:10px;
+		  }
+.paddingc {padding-left:5px;
+          padding-right:5px;
+		  padding-bottom:5px;
+		  }
+		  
+		  /* this is for the home page */
+div#home {position:absolute;
+		  background-color:#1e1e1e;
+		  top:20px;
+		  left:1px;
+		  width:100%;
+		  height:auto;
+		  padding:10px;
+		  padding-right:0px;
+		  padding-left:0px;
+		  padding-bottom:0px;
+		  }
+		  
+div#b1 {position:absolute;
+		  background-color:#1e1e1e;
+		  top:20px;
+		  left:1px;
+		  width:100%;
+		  height:auto;
+		  padding:10px;
+		  padding-right:0px;
+		  padding-left:0px;
+		  padding-bottom:0px;
+		  }
+
+.padding3 {padding-left:10px; /* This is for the home page */
+          padding-right:10px;
+		  padding-bottom:10px;
+		  width:70%;
+		  }
+
+div#rightcolumnb {position:absolute;
+	   	      width:200px;
+			  top:28px;
+			  left:540px;
+			  height:100%;
+			  }
+		  		
+.moveside {margin-left:200px;
+           margin-right:0px;
+		   }
+
+  
+.padding2 {padding-left:10px; /* This is for the home page */
+          padding-right:10px;
+		  padding-bottom:10px;
+		  width:70%;
+		  }
+		  
+div#rightcolumn {position:absolute;
+	   	      width:200px;
+			  top:28px;
+			  left:540px;
+			  height:100%;
+			  }
+
+/* style for text */
+
+.bold {font-weight:bold; 
+	color:#ffffff; 
+	font-size:14px; 
+	}
+	
+.bold2 {font-weight:bold; 
+	color:#ffffff;
+	 font-size:11px; 
+	margin-left: 20px; 
+	}
+
+/*.li {list-style-type:none;
+	}*/
+	
+.ul {margin:0px; 
+	padding:0px;
+	}
+
+
+
+
+/* Link Styles */
+
+.links {color:#ffffff; 
+	top:40px; 
+	font-size:12px; 
+	left:0px;}
+
+
+/* logo & banner */
+
+.logo {width:300px;
+       height:50px;
+	   top:0px;
+	   left:0px;
+	   background-image:url(../images/templogo1.jpg);
+	   background-repeat:no-repeat;
+	   z-index:3;
+	   }
+	   
+
+
+.banner {width:740px;
+       	height:192px;
+	   top:50px;
+	   left:0px;
+	   background-image:url(../images/banner.jpg);
+	   background-repeat:no-repeat;
+	   z-index:2;
+	   }
+	   
+.intro {position:absolute; /*added to fix the banner placement*/
+	   width:740px;
+       height:222px;
+	   top:70px;
+	   left:0px;
+	   z-index:2;
+	   }
+
+.intro1 {position:absolute; /*added to fix the banner placement*/
+	   width:740px;
+       height:222px;
+	   top:70px;
+	   left:0px;
+	   z-index:2;
+	   }
+	   
+div#content2 {
+	position:absolute;
+	background: #1e1e1e;
+	width:740px;
+	height:auto;
+	top:20px;
+	left:0px;
+	z-index: 1;
+	}
+
+div#left2{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 710px;
+	height: auto;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	}
+
+div#comright{
+		width:300px;
+		  height:auto;
+		  margin-left:0px;
+		  margin-right:0px;
+		  margin-top:0px;
+		  margin-bottom:60px;
+		  padding-left:10px;
+		  padding-bottom:20px;
+		  float:right;
+		  z-index:7;
+		  border-style:solid;
+		  border-width:1px;
+		  border-bottom:none;
+		  border-top:none;
+	      border-left-color:#fff;
+		  border-right:none;
+		  }
+		  
+/* sponsor pages */
+
+div#sponsorcontent{
+		  width:530px;
+		  height: auto;
+		  margin-left: 0px;
+		  margin-right: 10px;
+		  margin-top: 5px;
+		  margin-bottom: 40px;
+		  padding-left: 10px;
+		  padding-bottom: 20px;
+		  float: right;
+		  z-index: 7;
+		  }
+	
+div#sponsorslocal{ 
+	margin-top: 35px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 60px;
+	float: left;
+	width: 180px;
+	height: auto;
+	padding-bottom: 20px;
+	z-index: 3;
+	}	
+
+
+/* end of sponsor pages div */
+
+/*div#ballcontent{
+		  width:500px;
+		  height: auto;
+		  margin-left: 0px;
+		  margin-right: 10px;
+		  margin-top: 9px;
+		  margin-bottom: 20px;
+		  padding-left: 10px;
+		  padding-bottom: 20px;
+		  padding-right:15px;
+		  float:right;
+		  z-index: 7;
+		  }
+	
+div#balllocal{ 
+	margin-top: 35px;
+	margin-left: 10px;
+	margin-right: 0px;
+	margin-bottom: 60px;
+	float: left;
+	width: 180px;
+	height: auto;
+	padding-bottom: 20px;
+	z-index: 3;
+	}	*/
+		  
+div#leftraffle{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 410px;
+	height: auto;
+	}
+div#news{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	width: 410px;
+	height: auto;
+	}
+/* position */
+
+.movedown {position:relative;
+			left:0px;
+		   top:35px;}
+		   
+.movedown1 {top:20px;}
+
+.movedown2 {position:relative;
+			left:0px;
+		   top:10px;}
+		  
+/*.table {width:100%; 
+	height:100%; 
+	z-index:5;
+	}*/
+
+.tablestyle {padding-left:10px; 
+	padding-top:10px; 
+	border-color:#cccccc; 
+	border-width:1px; 
+	border-style:solid;
+	}
+
+.botright {border-color:#cccccc; 
+	border-width:1px; 
+	border-style:solid; 
+	border-left:none; 
+	border-top:none;
+	}
+		  
+/* 07 content */
+
+.sponcontent {position:absolute;
+	background-color:#1e1e1e;	
+        width:740px;
+	height:600px;
+	top:0px;
+	z-index:1;
+	}
+
+
+
+/* content class for NCA page only */
+.ncacontent {position:absolute;
+	background-color:#1e1e1e;	
+	background-repeat: repeat-x;
+    width:740px;
+	height: 975px;
+	top:0px;
+	z-index:1;
+	}
+		  
+/* content class for honors page */
+.honorscontent {position:absolute;
+		  background-color:#1e1e1e;	
+		  background-repeat: repeat-x;
+          width:740px;
+		  height:575px;
+		  top:0px;
+		  z-index:1;
+		  }
+		  
+/* content class for about us page only */
+.aboutcontent {position:absolute;
+		  background-color:#1e1e1e;	
+		  background-repeat: repeat-x;
+          width:740px;
+		  height: 800px;
+		  top:0px;
+		  z-index:1;
+		  }
+		  
+/* This DIV controls the content (or where the text goes), you can change the 'font-family' area, don't change anything else */		  
+
+.textarea {width:700px;
+		   height:290px;
+		   top:300px;
+		   left:12px;
+		 }
+		
+.sidecol2  {background-color:#585858;	
+		   width:160px;
+		   height:120px;
+		   margin-top:0px;
+		   left:560px;
+		   float:right;
+		   border-style:solid;
+		   border-width:1px;
+		   border-bottom-color:#d9d9d9;
+		   border-top-color:#d9d9d9;
+		   border-left-color:#d9d9d9;
+		   border-right-color:#d9d9d9;
+		   }
+		   
+/* for home page - don't mess with this, copy paste this for other pages*/
+		   
+.maintext {position:absolute;
+		   width:auto;
+		   height:auto;
+		   margin-right: 20px;
+		   top:10px;
+		   left:10px;
+		   }
+		  
+.maintext2 {margin-top:0px;
+		   width:500px;
+		   height:auto;
+		   left:10px;
+
+		   }
+
+.margins {padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		}
+		   
+		   
+.sidecol  {position:relative;
+		   background-color:#585858;	
+		   width:155px;
+		   height:290px;
+		   top:10px;
+		   left:572px;
+		   border-style:solid;
+		   border-width:1px;
+		   border-bottom-color:#d9d9d9;
+		   border-top-color:#d9d9d9;
+		   border-left-color:#d9d9d9;
+		   border-right-color:#d9d9d9;
+		   }
+
+/* for menu category*/
+
+.menutitle{
+	color:#ffffff;
+	border-bottom: 1px solid #2f2f7c;
+	padding: 1px 0;
+	padding-left: 5px;
+	background-color:#343476;
+	font: bold 90% Helvetica, Arial, sans-serif;
+}
+
+/* ball history page */
+
+.content2 {position:absolute; float:right; left:7px;}
+
+.indextext5 {
+		   width:500px;
+		   height:auto;
+		   top:0px;
+		   left:12px;
+		   }		
+
+.maintext5 {position:absolute;
+		   width:auto;
+		   height:auto;
+		   padding-left:10px;
+		   margin-right: 20px;
+		   left:10px;
+		   top:295px;
+		   }   
+
+.sidecol3  {position:relative;
+		   background-color:#585858;	
+		   width:155px;
+		   height:auto;
+		   top:30px;
+		   right:20px;
+		   float:right;
+		   border-style:solid;
+		   border-width:1px;
+		   border-bottom-color:#d9d9d9;
+		   border-top-color:#d9d9d9;
+		   border-left-color:#d9d9d9;
+		   border-right-color:#d9d9d9;
+		   }
+
+.coltext3 {position:relative;
+		   width:auto;
+		   height:auto;
+		   top:10px;
+		   left:5px;
+		   right:10px;
+		   }
+
+		   
+
+/* for society page */
+
+.soctext {position:absolute;
+		   width:500px;
+		   height:auto;
+		   padding-left:10px;
+		   margin-right: 20px;
+		   top:10px;
+		   left:10px;
+		   }
+		  
+.soctext2 {position:relative;
+		   width:500px;
+		   height:auto;
+		   top:10px;
+		   left:10px;
+		   }
+		   
+.textarea2 {width:700px;
+		   height:290px;
+		   top:300px;
+		   left:12px;
+		 }
+		 
+/* for nca page */
+
+.maintext3 {position:relative;
+		   width:500px;
+		   height:auto;
+		   margin-right: 20px;
+		   top:10px;
+		   left:10px;
+		   }
+
+.textarea3 {width:500px;
+		   height:auto;
+		   top:300px;
+		   left:12px;
+		 }
+
+/* for ball (history) page */
+
+.maintext4 {position:relative;
+		   width:100%;
+		   height:100%;
+		   padding-left:10px;
+		   margin-right: 20px;
+		   top:10px;
+		   left:10px;
+		   }
+
+.textarea4 {width:700px;
+		   height:290px;
+		   top:300px;
+		   left:12px;
+		 }
+		 
+/* committee page */
+
+ 
+div#comleft{
+		  width: 230px;
+		  height: auto;
+		  margin-left: 0px;
+		  margin-right: 0px;
+		  margin-top: 0px;
+		  margin-bottom: 24px;
+		  float: left;
+		  z-index: 7;
+		  }
+
+		  
+ul {list-style:none;}
+		   
+
+.comMemName {font-weight:bold;}
+			
+.comMemBiz {font-style: italic;}
+		   
+/* end of committee css */
+
+
+.coltext {position:relative;
+		   width:auto;
+		   height:auto;
+		   top:10px;
+		   left:10px;
+		   right:10px;
+		   }
+		   
+.coltext2 {
+		   width:auto;
+		   height:auto;
+		   top:5px;
+		   left:5px;
+		   right:10px;
+		   }
+
+div#menu{
+		 background-color:#555555;
+		 width:740px;
+		 height:25px;
+		 top:-8px;
+		 margin-top:0px;
+		 z-index:6;
+		 }
+		 
+
+div#sitemapmenu {position:absolute;
+		 background-color:#555555;
+		 width:740px;
+		 height:25px;
+		 top:-8px;
+		 left:1px;
+		 margin-top:0px;
+		 z-index:8;
+		 }		 
+
+.empty{ position: absolute;
+		width:740px;
+		height:22px;
+		bottom: 0px;
+		z-index:3;
+		 }
+			
+.emptyindex	{position: fixed;
+			 width:740px;
+		 	 height:22px;
+			 bottom: 0px;
+		  	 z-index:3;
+		 	 }
+			
+/* local menu general*/
+
+.wireframemenu{position:relative;
+	border: 1px solid #2f2f7c;
+	background-color:#6666CC;
+	border-bottom-width: 0;
+	width: 179px;
+	float:left;
+	}
+
+* html .wireframemenu{ /*IE only rule. Original menu width minus all left/right paddings */
+	width: 164px;
+	}
+
+.wireframemenu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+
+.wireframemenu a{
+	font: bold 13px Verdana;
+	padding: 4px 10px;
+	display: block;
+	width: 100%; /*Define width for IE6's sake*/
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f7c;
+	}
+
+.wireframemenu a:visited{
+	color: #ffffff;
+	}
+
+html>body .wireframemenu a{ /*Non IE rule*/
+	width: auto;
+	}
+
+.wireframemenu a:hover{
+	background-color:#9999ff;
+	color:#ffffff;
+	}
+.wireframemenu li .current {color:#ffffff; background-color:#45459f;}
+
+/* society menu */
+
+.wireframemenu3{position:relative;
+	border: 1px solid #2f2f7c;
+	background-color:#6666CC;
+	border-bottom-width: 0;
+	width: 179px;
+	float:left;
+	}
+
+* html .wireframemenu3{ /*IE only rule. Original menu width minus all left/right paddings */
+	width: 164px;
+	}
+
+.wireframemenu3 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+
+.wireframemenu3 a{
+	font: bold 13px Verdana;
+	padding: 4px 10px;
+	display: block;
+	width: 100%; /*Define width for IE6's sake*/
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f7c;
+	}
+
+.wireframemenu3 a:visited{
+	color: #ffffff;
+	}
+
+html>body .wireframemenu3 a{ /*Non IE rule*/
+	width: auto;
+	}
+
+.wireframemenu3 a:hover{
+	background-color:#9999ff;
+	color:#ffffff;
+	}
+.wireframemenu3 li .current {color:#ffffff; background-color:#45459f;}
+
+/* committee */
+
+div#commenu{
+	margin-top: 35px;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-bottom: 40px;
+	float: left;
+	width: 150px;
+	height: auto;
+	padding-bottom: 20px;
+	z-index: 3;
+	}
+
+.wireframemenu1{position:relative;
+	border: 1px solid #2f2f7c;
+	background-color:#6666CC;
+	border-bottom-width: 0;
+	width: 134px;
+	}
+
+* html .wireframemenu1{ /*IE only rule. Original menu width minus all left/right paddings */
+	width: 164px;
+	}
+
+.wireframemenu1 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+
+.wireframemenu1 a{
+	font: bold 13px Verdana;
+	padding: 4px 10px;
+	display: block;
+	width: 100%; /*Define width for IE6's sake*/
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f7c;
+	}
+
+.wireframemenu1 a:visited{
+	color: #ffffff;
+	}
+
+html>body .wireframemenu1 a{ /*Non IE rule*/
+	width: auto;
+	}
+
+.wireframemenu1 a:hover{
+	background-color: #9999ff;
+	color:#ffffff;
+	}
+.wireframemenu1 li .current {color:#ffffff; background-color:#45459f;}
+
+/* local menu for sponsorship page */
+
+.wireframemenu2{position:relative;
+	border: 1px solid #2f2f7c;
+	background-color:#6666CC;
+	border-bottom-width: 0;
+	width: 172px;
+	}
+
+* html .wireframemenu2{ /*IE only rule. Original menu width minus all left/right paddings */
+	width: 164px;
+	}
+
+.wireframemenu2 ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	}
+
+.wireframemenu2 a{
+	font: bold 13px Verdana;
+	padding: 4px 10px;
+	display: block;
+	width: 100%; /*Define width for IE6's sake*/
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid #2f2f7c;
+	}
+
+.wireframemenu2 a:visited{
+	color: #ffffff;
+	}
+
+html>body .wireframemenu2 a{ /*Non IE rule*/
+	width: auto;
+	}
+
+.wireframemenu2 a:hover{
+	background-repeat:repeat-x repeat-y;
+	background-color: #9999ff;
+	color:#ffffff;
+	}
+.wireframemenu2 li .current {color:#ffffff; background-color:#45459f;}
+
+/* for sponsor logos */
+
+.logotable {padding:0px;
+			border-style:solid;
+			border-width:1px;
+			border-color:#333333;	
+			}
+
+.borderbottom {border-style:solid;
+			border-width:1px;
+			border-color:#333333;
+			border-left:none;
+			border-right:none;
+			border-top:none;
+			border-bottom-width:1px;}
+			
+.borderbottom1 {border-style:solid;
+			border-width:1px;
+			border-color:#333333;
+			border-left:none;
+			border-top:none;
+			border-bottom-width:1px;}
+			
+.borderbottom2 {border-style:solid;
+			border-width:1px;
+			border-color:#333333;
+			border-left:none;
+			border-top:none;
+			border-bottom:none;}
+			
+			
+		
